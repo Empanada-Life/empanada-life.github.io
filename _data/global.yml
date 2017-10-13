@@ -3,20 +3,3 @@ title: 'Empanada Life'
 site-name: 'Empanada Life'
 description: 'Some thoughts by Andy Trattner.'
 url: 'https://empanada-life.github.io' # the base hostname & protocol for your site
-
-social-icons:
- - title: Email
-   url: mailto: yo@andytrattner.com
-   class: email
- - title: Facebook
-   url: https://www.facebook.com/andytratt
-   class: facebook
- - title: GitHub
-   url: https://github.com/trattner
-   class: github
- - title: LinkedIn
-   url: https://www.linkedin.com/in/tratt
-   class: linkedin
- - title: Twitter
-   url: https://twitter.com/trattqueen
-   class: twitter
