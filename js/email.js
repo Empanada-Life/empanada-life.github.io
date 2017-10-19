@@ -10,7 +10,11 @@ function subscribeEmailToList() {
   console.log('Subscribe request: ' + user_input);
   var post_command = '/subscribe-email';
   var post_url = serverAddress + post_command;
-  var data = { email: user_input };
+
+  var data = {
+    method: "POST",
+    email: user_input
+   };
 
   fetch(post_url, data)
   .then(function(response){
