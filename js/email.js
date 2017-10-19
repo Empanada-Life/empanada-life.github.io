@@ -13,6 +13,9 @@ function subscribeEmailToList() {
 
   var data = {
     method: "POST",
+    headers: new Headers( {
+      "Access-Control-Allow-Origin": "http://empanada.life"
+    }),
     email: user_input
    };
 
