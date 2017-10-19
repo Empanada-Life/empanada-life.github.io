@@ -2,7 +2,7 @@
 =         ALL THE EMAIL CODE         =
 ====================================*/
 
-var serverAddress = 'http://localhost:5000';
+var serverAddress = 'https://empanada-life.herokuapp.com';
 
 function subscribeEmailToList() {
   // adds an email to the mailing list, denies duplicates
