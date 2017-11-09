@@ -8,7 +8,7 @@ function subscribeEmailToList() {
   // adds an email to the mailing list, denies duplicates
   var user_input = document.getElementById('email-input');
   console.log('Subscribe request: ' + user_input);
-  var post_command = '/subscribe-email';
+  var post_command = '/testRoute'; // '/subscribe-email';
   var post_url = serverAddress + post_command;
 
   var data = {
