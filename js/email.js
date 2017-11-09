@@ -6,7 +6,7 @@ var serverAddress = 'https://empanada-life.herokuapp.com';
 
 function subscribeEmailToList() {
   // adds an email to the mailing list, denies duplicates
-  var user_input = document.getElementById('email-input');
+  var user_input = document.getElementById('email-input').value;
   console.log('Subscribe request: ' + user_input);
   var post_command = '/testRoute'; // '/subscribe-email';
   var post_url = serverAddress + post_command;
