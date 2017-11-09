@@ -16,6 +16,7 @@ function subscribeEmailToList() {
     headers: new Headers( {
       "Access-Control-Allow-Origin": "http://empanada.life"
     }),
+    mode: 'no-cors',
     email: user_input
    };
 
