@@ -23,7 +23,8 @@ function subscribeEmailToList() {
   fetch(post_url, data)
   .then(function(response){
     status = response.status;
-    console.log('Subscribe for --'+user_input+'-- status: ' + status);
+    console.log('recieved response! = ' + response);
+    console.log('Subscribe for --'+user_input+'-- status: ' + response.status);
   })
   .catch(function(error){
     console.log(error);
