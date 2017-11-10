@@ -11,7 +11,20 @@ function subscribeEmailToList() {
   var post_command = '/testRoute'; // '/subscribe-email';
   var post_url = serverAddress + post_command;
 
-  var data = {
+  let data = {
+    email: user_input
+  };
+  let fetchData = {
+    method: 'POST',
+    mode: 'no-cors',
+    body: JSON.stringify(data),
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json',
+    }
+  }
+
+/*   var data = {
     method: "POST",
     headers: new Headers( {
       "Access-Control-Allow-Origin": "http://empanada.life"
@@ -19,8 +32,10 @@ function subscribeEmailToList() {
     mode: 'no-cors',
     email: user_input
    };
+ */
 
-  fetch(post_url, data)
+
+  fetch(post_url, fetchData)
   .then(function(response){
     status = response.status;
     console.log('recieved response! = ' + response);
