@@ -40,7 +40,8 @@ function subscribeEmailToList() {
   fetch(post_url, fetchData)
   .then(function(response){
     status = response.status;
-    console.log('recieved response! = ' + response);
+    resjson = response.json();
+    console.log('recieved response! = ' + response + ' --json: ' + JSON.stringify(resjson));
     console.log('Stringified: ' + JSON.stringify(response));
     console.log('Subscribe for --'+user_input+'-- status: ' + status);
   })
