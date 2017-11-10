@@ -39,7 +39,8 @@ function subscribeEmailToList() {
   .then(function(response){
     status = response.status;
     console.log('recieved response! = ' + response);
-    console.log('Subscribe for --'+user_input+'-- status: ' + response.status);
+    console.log('Stringified: ' + JSON.stringify(response));
+    console.log('Subscribe for --'+user_input+'-- status: ' + status);
   })
   .catch(function(error){
     console.log(error);
