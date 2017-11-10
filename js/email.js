@@ -22,7 +22,8 @@ function subscribeEmailToList() {
     headers: {
       'Accept': 'application/json',
       'Content-Type': 'application/json',
-    }
+    },
+    email: user_input
   }
 
 /*   var data = {
