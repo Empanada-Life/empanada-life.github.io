@@ -14,6 +14,7 @@ function subscribeEmailToList() {
   let data = {
     email: user_input
   };
+  console.log('Data: ' + data + '\n Stringified: '+ JSON.stringify(data));
   let fetchData = {
     method: 'POST',
     mode: 'no-cors',
