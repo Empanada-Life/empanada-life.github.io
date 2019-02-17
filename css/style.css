@@ -11,7 +11,8 @@
 }
 
 .post-body{
-  font-size: 18px;
+  font-size: 22px;
+  line-height: 1.4;
 }
 
 h1.post-title{
@@ -19,10 +20,11 @@ h1.post-title{
 }
 
 .post-date{
-  font-size: 16px;
+  font-size: 18px;
   margin: auto;
   text-align: right;
   color: #5b5b5b;
+  padding-bottom:10px;
 }
 
 p.read-more{
