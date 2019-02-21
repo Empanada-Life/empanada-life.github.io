@@ -14,4 +14,4 @@ You can be one or more.
 
 But there are no other categories.
 
-_Inspired by [Seth](https://seths.blog/2019/02/work-before-passion/){:target="_blank"}._
+_Inspired by [Seth](https://seths.blog/2019/02/work-before-passion/){:target="_blank"} and [Terri](https://vimeo.com/318533633/c57b8fb19a){:target="_blank"}._
