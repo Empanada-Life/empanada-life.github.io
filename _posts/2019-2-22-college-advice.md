@@ -8,7 +8,7 @@ College is not a destination. It's a stepping stone, a gateway.
 
 You will never find your passion by analyzing your personality type, brainstorming, or otherwise "searching" for it. Don't wait until the homework is done. Don't wait until you know for sure. Spend ten minutes every day on a project that matters to you and only you.
 
-Take time to digest. Half-assing things can be fun. Even necessary. But I challenge you to engage. Discern. Choose to either listen or put in earplugs. When someone shares something with you, repeat it back. Come up with an example.  
+Take time to digest. Half-assing things can be fun. Even necessary. But I challenge you to engage. Discern. Choose to listen or put in earplugs. When someone shares something with you, repeat it back. Come up with an example.  
 
 Drop out of college in favor of a life experience that's a better fit for your present self. Come back later. You have permission to feel. Lost, lonely, confused, uncertain, scared, angry, unwanted, bad, sad, vulnerable, small. You are worthy.
 
