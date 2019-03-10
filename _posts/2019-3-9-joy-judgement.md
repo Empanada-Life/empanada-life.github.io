@@ -18,4 +18,4 @@ Do yourself a favor and tickle your emotion buttons. Then engage with cool ratio
 
 Ask what there is to be grateful for.
 
-Joy before judgement is a powerful one-two punch. The opponent often falls sooner than we'd expect.
+Joy before judgement is a powerful one-two punch. The opponent falls sooner than we'd expect.
