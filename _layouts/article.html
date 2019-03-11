@@ -10,11 +10,11 @@
           {{ content }}
         </div>
         <div class="post-date">
-          &mdash; {{ page.date | date: "%m/%d/%y" }} &mdash; 
+          &mdash; <i>{{ page.date | date: "%m/%d/%y" }}</i> &mdash;
         </div>
       </article>
+      {% include endcap.html %}
     </div>
-    {% include endcap.html %}
     <!--
     Endcap
     left: date
