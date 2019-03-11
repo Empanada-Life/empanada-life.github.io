@@ -95,7 +95,6 @@ img.about-head:hover{
   filter: alpha(opacity=70); /* For IE8 and earlier */
 }
 
-
 .archive-subscribe{
   width: 100%;
   z-index: 3;
@@ -104,8 +103,9 @@ img.about-head:hover{
 }
 
 #mc_embed_signup{
+  margin: 0 auto;
   background:#fff;
-  width: 50%;
+  width: 57%;
   text-align: right;
   border-bottom: 2px solid #808080;
   padding-top: 70px;
@@ -114,6 +114,7 @@ img.about-head:hover{
 
 #mc_embed_signup form{
   padding: 0;
+  text-align: right;
 }
 
 #mc_embed_signup input.email{
@@ -152,7 +153,6 @@ img.about-head:hover{
 
 .archive-date{
   font-size: 15px;
-  padding-bottom: 25px;
 }
 
 img{
