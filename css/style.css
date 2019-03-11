@@ -22,17 +22,32 @@ h1.post-title{
 .post-date{
   font-size: 18px;
   margin: auto;
-  text-align: right;
+  text-align: center;
   color: #5b5b5b;
-  padding-bottom:10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-p.read-more{
-  margin: auto;
+.endcap {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.endcap a {
+  display: block;
+  width: 33%;
+  float: left;
+  margin: 1em 0;
+}
+
+.endcap .nav-archive{
+  text-align: center;
+}
+
+.endcap .next {
   text-align: right;
-  width: 55%;
-  padding: 40px;
-  font-size: 16px;
 }
 
 a {

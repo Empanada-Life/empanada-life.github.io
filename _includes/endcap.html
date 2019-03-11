@@ -1,1 +1,10 @@
-{% include read_more.html %}
+
+<div class="endcap">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">&laquo; previous</a>
+  {% endif %}
+    <a class="nav-archive" href="/things">archive</a>
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">next &raquo;</a>
+  {% endif %}
+</div>
