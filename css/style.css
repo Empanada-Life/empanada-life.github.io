@@ -79,7 +79,8 @@ img.about-head:hover{
   margin: 0 auto;
   width: 50%;
   z-index: 3;
-  position: absolute;
+  position: fixed;
+  display: inline-block;
   border-bottom: 2px solid black;
 }
 
