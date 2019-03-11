@@ -82,21 +82,21 @@ img.about-head:hover{
 }
 
 #mc_embed_signup_scroll {
-  background: red;
+  text-align: center;
 }
 
 #mce-EMAIL{
-  background: blue;
+  display: inline-block;
 }
 
 #mc-embedded-subscribe{
-  background: green;
+  display: inline-block;
 }
 
 .archive-list{
   margin: auto;
   width: 50%;
-  padding-top: 60px;
+  padding-top: 250px;
   padding-bottom: 50px;
   text-align: center;
 }
