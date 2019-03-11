@@ -66,22 +66,37 @@ img.about-head:hover{
 
 #mc_embed_signup{
   background:#fff;
-  clear:left;
+  width: 50%;
+  border-bottom: 2px solid black;
+  margin: 0 auto;
+  display: inline-block;
+  padding-top: 70px;
 }
 
 .archive-subscribe{
-  margin: 0 auto;
-  width: 50%;
+  width: 100%;
+  text-align: center;
   z-index: 3;
   position: fixed;
-  display: inline-block;
-  border-bottom: 2px solid black;
+  margin-top: -30px;
+}
+
+#mc_embed_signup_scroll {
+  background: red;
+}
+
+#mce-EMAIL{
+  background: blue;
+}
+
+#mc-embedded-subscribe{
+  background: green;
 }
 
 .archive-list{
   margin: auto;
   width: 50%;
-  padding-top: 10px;
+  padding-top: 60px;
   padding-bottom: 50px;
   text-align: center;
 }
