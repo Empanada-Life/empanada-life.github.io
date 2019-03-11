@@ -37,9 +37,9 @@ h1.post-title{
   padding-bottom: 40px;
 }
 
-.more-things {
+a.more-things {
   font-size: 14px;
-  width: 100;
+  width: 100%;
   text-align: right;
 }
 
