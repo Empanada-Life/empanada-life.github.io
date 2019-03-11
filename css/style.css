@@ -101,6 +101,7 @@ img.about-head:hover{
 
 #mc_embed_signup input.email{
   display: inline-block;
+  margin: 0;
 }
 
 #mc_embed_signup input.button{
