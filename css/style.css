@@ -39,8 +39,9 @@ h1.post-title{
 }
 
 a.more-things {
-  font-size: 14px;
-  width: 100%;
+  font-size: 18px;
+  display: block;
+  float: right;
   text-align: right;
   padding-top: 15px;
   padding-bottom: 40px;
