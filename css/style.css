@@ -8,6 +8,7 @@
   margin: auto;
   width: 50%;
   padding-top: 50px;
+  padding-bottom: 10px;
 }
 
 .post-body{
@@ -33,7 +34,7 @@ h1.post-title{
   display: block;
   width: auto;
   overflow: hidden;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 40px;
 }
 
@@ -59,6 +60,7 @@ a.more-things {
 
 .endcap .nav-archive{
   text-align: center;
+  border-top: 2px solid black;
 }
 
 .endcap .next {
