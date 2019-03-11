@@ -1,6 +1,7 @@
 .container{
   width: 100%;
   height: 100%;
+  font-family: 'Alike', serif;
 }
 
 .archive-container{
@@ -12,7 +13,6 @@
 .article{
   margin: auto;
   width: 50%;
-  font-family: 'Montserrat', sans-serif;
   padding-top: 50px;
 }
 
@@ -23,6 +23,7 @@
 
 h1.post-title{
   font-size: 42px;
+  font-family: 'Alice', serif;
 }
 
 .post-date{
@@ -35,7 +36,6 @@ h1.post-title{
 
 p.read-more{
   margin: auto;
-  font-family: 'Montserrat', sans-serif;
   text-align: right;
   width: 55%;
   padding: 40px;
@@ -92,6 +92,7 @@ img.about-head:hover{
 
 a.archive-title{
   font-size: 24px;
+  font-family: 'Alice', serif;
 }
 
 a.archive-link{
@@ -132,7 +133,6 @@ img[src$='#L'] {
 
   p.read-more{
     margin: auto;
-    font-family: 'Montserrat', sans-serif;
     text-align: right;
     width: 85%;
     padding: 0;
@@ -143,7 +143,6 @@ img[src$='#L'] {
   .article{
     margin: auto;
     width: 75%;
-    font-family: 'Montserrat', sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -163,7 +162,6 @@ img[src$='#L'] {
   .archive-list{
     margin: auto;
     width: 50%;
-    font-family: 'Montserrat', sans-serif;
     padding-top: 30px;
   }
 
