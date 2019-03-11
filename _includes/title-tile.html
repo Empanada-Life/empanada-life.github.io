@@ -1,1 +1,10 @@
-<a href="{{ post.url | prepend: site.baseurl }}" class="archive-title">{{ post.title }}<br><span class="archive-date">{{ post.date }}</span></a><br><br>
+<a href="{{ post.url | prepend: site.baseurl }}" class="archive-link">
+  <span class="archive-title">
+    {{ post.title }}
+    <br>
+  <span class="archive-date">
+    {{ post.date | date: "%m / %d / %y"}}
+  </span>
+</a>
+<br>
+<br>
