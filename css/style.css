@@ -3,6 +3,12 @@
   height: 100%;
 }
 
+.archive-container{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
 .article{
   margin: auto;
   width: 50%;
@@ -70,8 +76,11 @@ img.about-head:hover{
 }
 
 .archive-subscribe{
-  margin: auto;
+  margin: 0 auto;
   width: 50%;
+  z-index: 3;
+  position: absolute;
+  border-bottom: 2px solid black;
 }
 
 .archive-list{
