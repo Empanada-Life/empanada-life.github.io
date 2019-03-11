@@ -65,11 +65,15 @@ img.about-head:hover{
 }
 
 
+.archive-subscribe{
+  margin: auto;
+  width: 50%;
+}
+
 .archive-list{
   margin: auto;
   width: 50%;
-  font-family: 'Montserrat', sans-serif;
-  padding-top: 150px;
+  padding-top: 10px;
   padding-bottom: 50px;
 }
 
