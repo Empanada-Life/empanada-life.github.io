@@ -64,6 +64,10 @@ img.about-head:hover{
   filter: alpha(opacity=70); /* For IE8 and earlier */
 }
 
+#mc_embed_signup{
+  background:#fff;
+  clear:left;
+}
 
 .archive-subscribe{
   margin: auto;
@@ -88,7 +92,6 @@ a.archive-link{
 a.archive-date{
   font-size: 14px;
 }
-
 
 img{
   width: 100%;
