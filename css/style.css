@@ -87,6 +87,7 @@ img.about-head:hover{
 
 #mce-EMAIL{
   display: inline-block;
+  text-align: center;
 }
 
 #mc-embedded-subscribe{
