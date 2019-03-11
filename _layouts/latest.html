@@ -4,9 +4,16 @@
     <div class="article">
       {% assign post = site.posts.first %}
       {% assign content = post.content %}
-      {% include post_content.html%}
+      <article>
+        <h1 class="post-title">
+          {{ post.title }}
+        </h1>
+        <div class="post-body">
+          {{ content }}
+        </div>
+        <a class="more-things" href="/things">Read more things &rarr;</a>
+      </article>
     </div>
-    {% include endcap.html %}
   </div>
 
 {% include footer.html %}

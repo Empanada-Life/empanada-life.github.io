@@ -33,6 +33,14 @@ h1.post-title{
   display: block;
   width: auto;
   overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.more-things {
+  font-size: 14px;
+  width: 100;
+  text-align: right;
 }
 
 .endcap a {
@@ -89,6 +97,14 @@ img.about-head:hover{
 
 #mc_embed_signup form{
   padding: 0;
+}
+
+#mc_embed_signup input.email{
+  display: inline-block;
+}
+
+#mc_embed_signup input.button{
+  display: inline-block;
 }
 
 .archive-subscribe{
