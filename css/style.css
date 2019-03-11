@@ -101,7 +101,7 @@ img.about-head:hover{
   text-align: center;
 }
 
-a.archive-title{
+.archive-title{
   font-size: 24px;
   font-family: 'Alice', serif;
 }
@@ -110,7 +110,7 @@ a.archive-link{
   padding-bottom: 15px;
 }
 
-a.archive-date{
+.archive-date{
   font-size: 14px;
 }
 
