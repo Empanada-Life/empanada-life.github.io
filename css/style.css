@@ -147,8 +147,8 @@ img.about-head:hover{
   margin-top: 50%;
 }
 
-.empanada-svg {
-  width: 100%;
+img.empanada-svg {
+  width: 100px;
 }
 
 .archive-subscribe-box{
