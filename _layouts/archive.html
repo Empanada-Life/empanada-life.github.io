@@ -1,9 +1,10 @@
 {% include header.html %}
 
   <div class="container">
-    
-    {% include mailchimp-subscribe-box.html %}
 
+    {% include mailchimp-subscribe-box.html %}
+    {% include empanada-logo-box.html %}
+    
     <div class="archive-list">
       {% for post in site.posts %}
         {% include title-tile.html %}
