@@ -94,19 +94,24 @@ a.more-things {
   background: yellow;
 }
 
-.endcap a {
+.endcap .prev {
   display: block;
-  width: 33%;
+  width: 40%;
   float: left;
-  margin: 1em 0;
 }
 
 .endcap .nav-archive{
   text-align: center;
+  display: block;
+  width: 20%;
+  float: left;
 }
 
 .endcap .next {
   text-align: right;
+  display: block;
+  width: 40%;
+  float: left;
 }
 
 
