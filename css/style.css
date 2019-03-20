@@ -65,6 +65,30 @@ a.more-things {
   padding-top: 25px;
 }
 
+.endcap-subscribe .form-wrapper {
+  background: red;
+}
+
+.endcap-subscribe .email-input {
+  background: blue;
+}
+
+.endcap-subscribe .daily-button-div {
+  background: green;
+}
+
+.endcap-subscribe .daily-button-inp {
+  background: yellow;
+}
+
+.endcap-subscribe .weekly-button-div {
+
+}
+
+.endcap-subscribe .weekly-button-inp {
+
+}
+
 .endcap a {
   display: block;
   width: 33%;
@@ -109,42 +133,15 @@ img.about-head:hover{
 }
 
 .archive-subscribe-box{
-  margin-left: 60%;
+  margin-left: 57.5%;
   width: 20%;
   z-index: 3;
   position: fixed;
 }
 
-#mc_embed_signup{
-  margin: 0 auto;
-  background:#fff;
-  width: 100%;
-}
-
-#mc_embed_signup form{
-  padding: 0;
-  text-align: center;
-}
-
-#mc_embed_signup input.email{
-  display: block;
-  width: 150px;
-  margin: 0;
-}
-
-#mc_embed_signup input.button{
-  display: inline-block;
-  width: 60px;
-}
-
-#mc_embed_signup_scroll {
-  text-align: center;
-}
-
-
 .archive-list{
-  margin-left: 20%;
-  width: 40%;
+  margin-left: 22.5%;
+  width: 35%;
   padding-top: 250px;
   padding-bottom: 250px;
   text-align: left;
