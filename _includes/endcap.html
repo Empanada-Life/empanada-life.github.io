@@ -1,14 +1,17 @@
 
 <div class="endcap">
-  {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}">&larr; prev</a>
+  {% if page.next.url %}
+    <a class="prev" href="{{page.next.url}}">&larr; {{ page.next.date | date: "%m/%d/%y" }}</a>
   {% else %}
     <a class="prev"> </a>
   {% endif %}
-    <a class="nav-archive" href="/things">archive</a>
-  {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}">next &rarr;</a>
+
+    <a class="nav-archive" href={{ post.date | date: "%m/%d/%y" | prepend: "/things#" }}>archive</a>
+
+  {% if page.previous.url %}
+    <a class="next" href="{{page.previous.url}}">{{ page.previous.date | date: "%m/%d/%y" }} &rarr;</a>
   {% else %}
     <a class="next"> </a>
   {% endif %}
+
 </div>

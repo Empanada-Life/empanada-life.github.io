@@ -1,7 +1,7 @@
 .container{
   width: 100%;
   height: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Alice', serif;
 }
 
 .article{
@@ -44,7 +44,7 @@ a.more-things {
   float: right;
   text-align: right;
   padding-top: 15px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .endcap a {
@@ -176,6 +176,28 @@ img[src$='#L'] {
 }
 
 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  { /* iPad */
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) { /* small iPhone */
+
+}
+
+@media only screen
+and (min-device-width : 568px)
+and (max-device-width : 768px) { /* bigger phone */
+
+}
+
+
+
+
+
 
 @media only screen and (max-device-width: 480px) {
 
@@ -204,13 +226,13 @@ img[src$='#L'] {
     line-height: 1.3;
   }
 
-  p.read-more{
-    margin: auto;
-    text-align: right;
-    width: 85%;
-    padding: 0;
-    padding-bottom: 40px;
+  a.more-things {
     font-size: 16px;
+    display: block;
+    float: right;
+    text-align: right;
+    padding-top: 14px;
+    padding-bottom: 45px;
   }
 
   .article{
