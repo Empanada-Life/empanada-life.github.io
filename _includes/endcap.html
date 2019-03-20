@@ -18,10 +18,51 @@
   </div>
 
   <div class="endcap-subscribe">
+    <div class="Left">
+        Left
+    </div>
+    <div class="center">
+        Center
+    </div>
+    <div class="Right">
+        Right
+    </div>
+
+    <style type="text/css">
+            .Left
+            {
+                width: 250px;
+                height: 250px;
+                float: left;
+                background-color: Blue;
+            }
+
+            .center
+            {
+                width: 250px;
+                height: 250px;
+                background-color: Red;
+                float: left;
+            }
+
+            .Right
+            {
+                width: 250px;
+                height: 250px;
+                background-color: Fuchsia;
+                float: left;
+                clear: right;
+            }
+        </style>
+
+    <br><br>
+
+
     <input class="endcap-email-input" id={{ page.date | date: "%m/%d/%y" | prepend: "endcap-email-input-"}} placeholder="get@new.posts"/>
     <button>daily</button><button>weekly</button>
 
     <br><br>
+
 
 
       <!-- Begin Mailchimp Signup Form -->
