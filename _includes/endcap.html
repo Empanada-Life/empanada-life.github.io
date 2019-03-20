@@ -18,8 +18,12 @@
   </div>
 
   <div class="endcap-subscribe">
-    <input class="endcap-email-input" id={{ page.date | date: "%m/%d/%y" | prepend: "endcap-email-input-"}} placeholder="get@new.posts"/>
-    <button>daily</button><button>weekly</button>
+    <div class="endcap-subscribe-input-wrapper">
+      <input class="endcap-email-input" id={{ page.date | date: "%m/%d/%y" | prepend: "endcap-email-input-"}} placeholder="get@new.posts"/>
+    </div>
+    <div class="endcap-subscribe-button-wrapper"><button>daily</button>
+    </div>
+    <div class="endcap-subscribe-button-wrapper"><button>weekly</button></div>
   </div>
 
 <!--

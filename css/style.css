@@ -29,7 +29,7 @@ h1.post-title{
 .post-date{
   font-size: 18px;
   margin: auto;
-  text-align: left;
+  text-align: center;
   color: #5b5b5b;
   padding-top: 30px;
   padding-bottom: 15px;
@@ -108,11 +108,12 @@ img.about-head:hover{
   filter: alpha(opacity=70); /* For IE8 and earlier */
 }
 
-.archive-subscribe{
-  width: 100%;
+.archive-subscribe-box{
+  width: 50%;
   z-index: 3;
   position: fixed;
   margin-top: -30px;
+  margin-left: 600px;
 }
 
 #mc_embed_signup{
@@ -162,6 +163,15 @@ img.about-head:hover{
 
 .archive-link{
   padding-bottom: 20px;
+}
+
+.archive-link::before {
+  display: block;
+  content: " ";
+  margin-top: -150px;
+  height: 150px;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .archive-title{
