@@ -11,6 +11,11 @@
   padding-bottom: 10px;
 }
 
+.article p{
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
 .post-body{
   font-size: 24px;
   line-height: 1.5;
@@ -30,15 +35,6 @@ h1.post-title{
   padding-bottom: 15px;
 }
 
-.endcap {
-  font-size: 18px;
-  display: block;
-  width: auto;
-  overflow: hidden;
-  padding-top: 30px;
-  padding-bottom: 75px;
-}
-
 a.more-things {
   font-size: 18px;
   display: block;
@@ -48,6 +44,15 @@ a.more-things {
   padding-bottom: 60px;
 }
 
+.endcap {
+  font-size: 18px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 75px;
+}
+
 .endcap-nav {
   display: block;
   width: 100%;
@@ -55,9 +60,9 @@ a.more-things {
 }
 
 .endcap-subscribe {
-  padding-top: 10px;
   display: block;
   width: 100%;
+  padding-top: 10px;
 }
 
 .endcap a {
