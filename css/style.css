@@ -36,7 +36,7 @@ h1.post-title{
   width: auto;
   overflow: hidden;
   padding-top: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 75px;
 }
 
 a.more-things {
@@ -46,6 +46,18 @@ a.more-things {
   text-align: right;
   padding-top: 15px;
   padding-bottom: 60px;
+}
+
+.endcap-nav {
+  display: block;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.endcap-subscribe {
+  padding-top: 10px;
+  display: block;
+  width: 100%;
 }
 
 .endcap a {

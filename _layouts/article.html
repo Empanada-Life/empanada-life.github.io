@@ -6,12 +6,12 @@
         <h1 class="post-title">
           {{ page.title }}
         </h1>
-        <div class="post-date">
-          {{ page.date | date: "%A %b %-d, %Y"}}
-        </div>
         <!-- https://learn.cloudcannon.com/jekyll/date-formatting/ -->
         <div class="post-body">
           {{ content }}
+        </div>
+        <div class="post-date">
+          {{ page.date | date: "%A %b %-d, %Y"}}
         </div>
       </article>
       {% include endcap.html %}
