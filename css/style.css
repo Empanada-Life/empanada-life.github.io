@@ -18,15 +18,15 @@
 
 h1.post-title{
   font-size: 46px;
+  padding-bottom: 7px;
 }
 
 .post-date{
   font-size: 18px;
   margin: auto;
-  text-align: center;
+  text-align: left;
   color: #5b5b5b;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .endcap {

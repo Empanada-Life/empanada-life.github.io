@@ -7,8 +7,9 @@
           {{ page.title }}
         </h1>
         <div class="post-date">
-          {{ page.date | date: "%m/%d/%y" }}
+          {{ post.date | date: "%A, %-d %B, %Y" }}
         </div>
+        <!-- https://learn.cloudcannon.com/jekyll/date-formatting/ -->
         <div class="post-body">
           {{ content }}
         </div>
