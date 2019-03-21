@@ -14,3 +14,5 @@ Subscribe at bottom.
 Github.
 
 Contact me.
+
+consider http://typ.io/s/gdnv
