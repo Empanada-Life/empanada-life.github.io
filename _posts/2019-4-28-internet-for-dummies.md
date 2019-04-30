@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 'How does the internet work?'
+title: 'How does the Internet work?'
 date: 2019-4-28
 ---
 
@@ -10,7 +10,7 @@ Say Bob wants to learn more about Alice by visiting her website. He doesn’t ha
 
 To keep the Internet organized, each connected computer is given a special address, just like houses in the physical world. Instead of street names, computers like to use numbers. For example, my IP address is 97.87.180.102. When the browser goes to find alice.com, it’s really just trying to figure out which computer to request files from. What’s Alice’s IP address?
 
-The first stop on the quest by default is Bob’s internet service provider, for instance Comcast. The browser sends a signal through wifi and cables (or over mobile networks) asking, “What’s the IP address of alice.com?” Comcast has a computer which is constantly listening for these queries and resolving them. It’s called a Recursive Resolver. So Bob’s browser waits for the Recursive Resolver to answer, “Here you go! I found Alice’s IP address.”
+The first stop on the quest by default is Bob’s Internet service provider, for instance Comcast. The browser sends a signal through wifi and cables (or over mobile networks) asking, “What’s the IP address of alice.com?” Comcast has a computer which is constantly listening for these queries and resolving them. It’s called a Recursive Resolver. So Bob’s browser waits for the Recursive Resolver to answer, “Here you go! I found Alice’s IP address.”
 
 The Recursive Resolver sees “alice.com” and goes to another computer called a Root Server. There are a few of these spread throughout the world, some managed by the government, some by companies, and some by universities or other nonprofits. The Root Server says, “OK do you have a .com, .gov, .net, .edu, or what? Looks like .com, so here’s the computer in charge of that top level domain.” Verisign is the company that manages the .com TLD name server.
 
