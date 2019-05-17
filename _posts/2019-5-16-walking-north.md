@@ -8,7 +8,7 @@ I walked north toward the ocean.
 
 Past corner stores, parks, and laundromats. Up the final hill between me and that sweet salty breeze, where the apartments give way to fancy old houses. I paused on my way down.
 
-Looking out over the harbor&mdsah;past the islands dotting the shoreline, past the scurrying little boats and the piers and masts and buoys&mdash;out there where misty sky meets grey water, suddenly naked and bare behind the hill, sat beauty.
+Looking out over the harbor&mdash;past the islands dotting the shoreline, past the scurrying little boats and the piers and masts and buoys&mdash;out there where misty sky meets grey water, suddenly naked and bare behind the hill, sat beauty.
 
 So I faced a choice...
 
