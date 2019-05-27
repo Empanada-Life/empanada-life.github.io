@@ -115,7 +115,7 @@ a.more-things {
 }
 
 
-  .nice-btn-wrap{
+  .nice-btn-wrap {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,7 +125,7 @@ a.more-things {
     text-align:center;
   }
 
-  .nice-btn{
+  .nice-btn {
     background: #fff;
     text-decoration: none;
     display: block;
@@ -137,7 +137,7 @@ a.more-things {
     transition: all 0.2s ease-out;
   }
 
-  .nice-btn:hover{
+  .nice-btn:hover {
     border-radius: 2rem;
     color: #0d239b;
     border-color: #0d239b;
